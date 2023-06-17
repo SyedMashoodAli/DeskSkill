@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#div-logo
+{
+    background-color: coral;
+    height: 35px;
+    line-height:35px;
+}
+
+#div-nav
+{
+    background-color:blueviolet;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+}
+
+#div-head-banner
+{
+    background-color:firebrick;
+    height: 65px;
+    line-height: 65px;
+    text-align: center;
+}
+
+#div-body
+{
+   background-color: cadetblue;
+   /* height: 450px;  */
+   width: 100%;
+
+}
+
+#div-sidebar
+{
+    background-color:dimgray;
+    height:450px;
+    width:28%;
+    line-height: 450px;
+    text-align: center;
+    width: 29%;
+    float: left;
+
+}
+
+#div-bodyarea
+{
+    background-color:lightcoral;
+    height: 450px;
+    width:69%;
+    line-height: 450px;
+    text-align: center;
+    width: 71%;
+    float: left;
+
+}
+
+#div-footer
+{
+    background-color:mediumslateblue;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+
+}
+
+.clearfix ::after
+{
+    content: " ";
+    display: block;
+    clear: both;
+
+}
